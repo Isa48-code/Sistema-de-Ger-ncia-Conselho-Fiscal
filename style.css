@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.entrada {
+  color: green;
+}
+
+.saida {
+  color: red;
+}

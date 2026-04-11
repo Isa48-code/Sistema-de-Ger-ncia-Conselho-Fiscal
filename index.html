@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Conselho Fiscal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Controle Financeiro</h1>
+
+    <div class="form">
+        <input type="text" id="descricao" placeholder="Descrição">
+        <input type="number" id="valor" placeholder="Valor">
+
+        <select id="tipo">
+            <option value="Entrada">Entrada</option>
+            <option value="Saida">Saída</option>
+        </select>
+
+        <button onclick="adicionar()">Adicionar</button>
+    </div>
+
+    <h2>Saldo: R$ <span id="saldo">0</span></h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>tipo</th>
+            </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
