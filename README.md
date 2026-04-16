@@ -116,4 +116,4 @@ GitHub: https://github.com/Isa48-code
 
 ## 📄 Licença
 
-Este projeto é de uso livre para fins educacionais.
+Este projeto é de uso livre para fins educacionais...
