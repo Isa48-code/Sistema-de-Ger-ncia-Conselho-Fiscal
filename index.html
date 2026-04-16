@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
     <title>Sistema de Conselho Fiscal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,6 +12,7 @@
     <h1>Controle Financeiro</h1>
 
     <div class="form">
+        <input type="date" id="data">
         <input type="text" id="descricao" placeholder="Descrição">
         <input type="number" id="valor" placeholder="Valor">
 
@@ -22,14 +24,16 @@
         <button onclick="adicionar()">Adicionar</button>
     </div>
 
-    <h2>Saldo: R$ <span id="saldo">0</span></h2>
+    <h2>Saldo: R$ <span id="saldo">0.00</span></h2>
 
     <table>
         <thead>
             <tr>
+                <th>Data</th>
                 <th>Descrição</th>
                 <th>Valor</th>
                 <th>tipo</th>
+                <th>Ação</th>
             </tr>
         </thead>
         <tbody id="tabela"></tbody>
