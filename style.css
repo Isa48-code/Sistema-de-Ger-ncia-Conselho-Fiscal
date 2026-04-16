@@ -1,20 +1,33 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #f4f6f8;
+}
+
+h1, h2 {
+  color: #222;
 }
 
 .form {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 input, select, button {
   padding: 10px;
-  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  background-color: white;
 }
 
 th, td {
@@ -23,10 +36,27 @@ th, td {
   text-align: center;
 }
 
+th {
+  background-color: #e9ecef;
+}
+
 .entrada {
   color: green;
+  font-weight: bold;
 }
 
 .saida {
   color: red;
+  font-weight: bold;
+}
+
+.excluir {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+}
+
+.excluir:hover {
+  opacity: 0.9;
 }
