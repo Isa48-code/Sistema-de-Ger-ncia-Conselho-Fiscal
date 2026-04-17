@@ -1,4 +1,4 @@
-# 💰 Sistema de Controle Financeiro - Conselho Fiscal
+#  Sistema de Controle Financeiro - Conselho Fiscal
 
 Este projeto é um sistema simples de controle financeiro desenvolvido com **HTML, CSS e JavaScript**, com foco em atender as necessidades de um **Conselho Fiscal de comunidade (quilombo)**.
 
